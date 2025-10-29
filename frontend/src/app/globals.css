@@ -22,6 +22,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Ensure all buttons show pointer cursor for better affordance */
+button {
+  cursor: pointer;
+}
+
 /* Custom utilities and overrides for landing page */
 .dark body {
   background: var(--background);
